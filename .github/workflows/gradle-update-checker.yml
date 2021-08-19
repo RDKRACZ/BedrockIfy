@@ -5,6 +5,7 @@ on:
     - cron: "0 0 * * *"
 jobs:
   update-gradle-wrapper:
+    name: Check for Gradlew updates
     strategy:
       matrix:
         java: [ 16 ]
